@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "b6c3bb41-57b0-4afb-814b-f0ee3082e1a0",
+		"name": "Liquid",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"kuro\",\n    \"password\": \"kuro\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"token\": \"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTkzNjEyNTgsImlhdCI6MTYxOTM2MDM1OCwibmJmIjoxNjE5MzYwMzU4LCJVc2VyTmFtZSI6Imt1cm8ifQ.zFR3qjBr8JeyrRTKpfhvQ5aHLD4K-uLWnIyD1ckG6q2RXY3Maqg5rKJcF9P482t6czdTR8nGTkC1TBOrdUMb3Q\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9090/verify",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"verify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
