@@ -1,16 +1,16 @@
 # Liquid
 
-This is an assigment for Liquid interview 
+This is an assigment for Liquid interview  
 The repo is contains two sessions:
 - Blockchain get balance at timestamp
 - A Server and Client using authentication based on JWT and ecdsa as a signing method  
 
 # Blockchain get balance at timestamp 
 
-[Blockchain GetBalanceAt](./blockchain/get_balance.go)
-Implemented using binary search
-Time complexity: O(log(N))
-Space complexity: O(1)
+[Blockchain GetBalanceAt](./blockchain/get_balance.go)  
+Implemented using binary search  
+Time complexity: O(log(N))  
+Space complexity: O(1)  
 Unit-test included: [Unit-test](./blockchain/get_balance_test.go)
 
 # Auth Server and Client
