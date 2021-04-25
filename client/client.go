@@ -70,5 +70,5 @@ func VerifyAccessToken(resp http.ResponseWriter, req *http.Request) {
 		return
 	}
 
-	commons.WriteJSONResp(resp, http.StatusOK, fmt.Sprintf("Welcome %s! Read for challange?", authToken.UserName))
+	commons.WriteJSONResp(resp, http.StatusOK, fmt.Sprintf("Welcome %s! Read for challenge?", authToken.UserName))
 }
